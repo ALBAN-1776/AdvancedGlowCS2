@@ -111,7 +111,7 @@
 
 По умолчанию для использования команды требуется флаг `e` или `z` (root). 
 
-Настройте права через IksAdminApi:
+Настройте права через IksAdmin:
 ```
 css_addadmin <steamid> <name> <flags> <immunity> <time>
 ```
