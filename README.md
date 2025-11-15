@@ -113,7 +113,7 @@
 
 Настройте права через IksAdmin:
 ```
-css_addadmin <steamid> <name> <flags> <immunity> <time>
+css_am_add <steamId> <name> <time/0> <server_id/this/all> <flags> <immunity>
 ```
 
 Где флаг `e` дает доступ к ESP функциям.
