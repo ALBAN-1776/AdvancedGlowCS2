@@ -19,7 +19,7 @@
   - Настройка параметров звукового обнаружения
 
 - **Система прав доступа:**
-  - Интеграция с IksAdminApi
+  - Интеграция с IksAdmin
   - Настраиваемый флаг доступа
 
 - **Discord логирование:**
@@ -29,12 +29,12 @@
 ## 📋 Требования
 
 - [CounterStrikeSharp](https://github.com/roflmuffin/CounterStrikeSharp) (latest version)
-- [IksAdminApi](https://github.com/Iksix/Iks_Admin) для системы прав доступа
+- [IksAdmin](https://github.com/Iksix/Iks_Admin) для системы прав доступа
 
 ## 🔧 Установка
 
 1. Установите CounterStrikeSharp на ваш сервер
-2. Установите IksAdminApi
+2. Установите IksAdmin
 3. Скопируйте файлы плагина в папку `addons/counterstrikesharp/plugins/AdvancedGlow/`
 4. Перезапустите сервер или загрузите плагин командой `css_plugins load AdvancedGlow`
 
