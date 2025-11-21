@@ -9,9 +9,39 @@ public static class ChatUtils
 {
     private static readonly Dictionary<string, string> ColorMap = new(StringComparer.OrdinalIgnoreCase)
     {
-        { "RED", "\x02" }, { "GREEN", "\x04" }, { "LIME", "\x06" }, { "BLUE", "\x0B" },
-        { "YELLOW", "\x09" }, { "PURPLE", "\x03" }, { "GRAY", "\x08" }, { "ORANGE", "\x05" },
-        { "DEFAULT", "\x01" }, { "WHITE", "\x01" }
+        { "default", "\x01" },
+        { "white", "\x01" },
+        { "red", "\x02" },
+        { "darkred", "\x02" },
+        { "lightpurple", "\x03" },
+        { "purple", "\x03" },
+        { "team", "\x03" },
+        { "green", "\x04" },
+        { "darkgreen", "\x04" },
+        { "orange", "\x05" },
+        { "lime", "\x06" },
+        { "lightgreen", "\x06" },
+        { "slimegreen", "\x06" },
+        { "lightred", "\x07" },
+        { "fadedred", "\x07" },
+        { "gray", "\x08" },
+        { "grey", "\x08" },
+        { "silver", "\x08" },
+        { "yellow", "\x09" },
+        { "lightyellow", "\x09" },
+        { "gold", "\x0A" },
+        { "golden", "\x0A" },
+        { "bronze", "\x0A" },
+        { "blue", "\x0B" },
+        { "lightblue", "\x0B" },
+        { "darkblue", "\x0C" },
+        { "navy", "\x0C" },
+        { "skyblue", "\x0D" },
+        { "cyan", "\x0D" },
+        { "aqua", "\x0D" },
+        { "magenta", "\x0E" },
+        { "violet", "\x0F" },
+        { "pink", "\x0F" }
     };
 
     private static readonly Regex ColorPattern = new Regex(@"\{([A-Za-z]+)\}", RegexOptions.Compiled);
